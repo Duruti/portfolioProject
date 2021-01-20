@@ -1,0 +1,67 @@
+.intro {
+   padding-bottom: 30px;
+}
+.intro h2{
+   font-size: 38px;
+   font-weight: 400;
+   font-family: 'DM Serif Display', serif;
+   line-height: 45px;
+   margin: 20px 0;
+}
+.intro p{
+   width: 80%;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+}
+
+.games{
+   margin: 50px auto;
+   width: 90%;
+}
+.game{
+   margin: 40px 0;
+   display: flex;
+}
+.descriptionGame{
+   width: 50%;
+}
+.descriptionGame h3{
+   margin: 10px 0;
+   font-family: 'DM Serif Display', serif;
+   color: darkgoldenrod;
+}
+.descriptionGame p{
+   width: 80%;
+}
+.imgGame {
+   width: 50%;
+}
+.imgGame img{
+   width: 100%;
+}
+@media screen and (max-width: 900px) {
+   .intro{
+      padding: 0px 20px;
+   }
+   .intro p{
+      width: 100%;
+   }
+}
+@media screen and (max-width: 450px) {
+   .game{
+      display: flex;
+      flex-direction: column;
+      }
+      .descriptionGame{
+       width: 100%;  
+       margin: 20px 0;
+      }
+      .descriptionGame p{
+      width: 100%;
+   }
+
+   .imgGame {
+      width: 100%;
+   }
+}

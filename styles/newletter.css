@@ -1,0 +1,53 @@
+.newLetter{
+   margin: 100px 0;
+   width: 100%;
+}
+.newLetter h2{
+   color: darkgoldenrod;
+   font-size: 38px;
+   font-weight: 400;
+   line-height: 45px;
+}
+
+.newLetter h1{
+   font-size: 38px;
+   font-weight: 400;
+   line-height: 45px;
+}
+
+
+.emailForm{
+   display: flex;
+   flex-direction: column;
+   margin: 50px 0;
+}
+.emailForm input{
+   width: 400px;
+   padding: 8px 12px;
+   margin-bottom: 20px;
+   background-color: #424242;
+   border: 1px solid #cccccc;
+   color: #d1d1d1;
+}
+.emailForm input:focus{
+   border-color: rgb(53, 133, 197);
+}
+.emailForm button{
+   width: 120px;
+   padding: 5px 30px;
+   background-color: darkgoldenrod;
+   border: none;
+   border-radius: 5px;
+}
+
+@media screen and (max-width: 450px) {
+   .newLetter {
+      text-align: center;
+   }
+   .emailForm input{
+      width: 80%;
+   }
+   .emailForm{
+      align-items: center;
+   }
+}
